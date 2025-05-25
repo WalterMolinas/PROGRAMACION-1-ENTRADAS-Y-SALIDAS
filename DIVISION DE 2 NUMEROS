@@ -1,0 +1,16 @@
+#include <stdio.h>
+//Pide al usuario dos números decimales y muestra el resultado de la división.
+int main() {
+	float a,b,division;
+	printf("Ingrese Numerador decimal\n");
+	scanf ("%f", &a);
+	printf("Ingrese Denominador decimal\n");
+	scanf ("%f", &b);
+	division=a/b;
+	if (b!=0){
+	printf("La division de a/b será: %.2f",division);
+	}else{
+		printf("No se puede dividir por CERO.");
+	}
+	return 0;
+}
