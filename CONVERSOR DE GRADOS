@@ -1,0 +1,11 @@
+#include <stdio.h>
+//Solicita al usuario una temperatura en grados Celsius y muéstrala en Fahrenheit.
+	
+int main() {
+	float celcius,temperatura;
+	printf("Ingerese la temperatutra en grados celcius: \n");
+	scanf("%f", &celcius);
+	temperatura= (celcius*1.8)+32;
+	printf("La temperatura en fahrenheit sera de: %.2f grados",temperatura);
+	return 0;
+}
