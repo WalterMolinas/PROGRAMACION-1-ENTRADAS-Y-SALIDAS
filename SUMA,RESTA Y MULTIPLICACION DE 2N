@@ -1,0 +1,16 @@
+#include <stdio.h>
+//Escribe un programa que pida al usuario dos números enteros, los sume, los reste, los divida, los multiplique y muestre el resultado
+int main() {
+	float a,b,suma,resta,multiplicacion;
+	printf("Ingrese primer numero\n");
+	scanf ("%f", &a);
+	printf("Ingrese segundo numero\n");
+	scanf ("%f", &b);
+	suma=a+b;
+	resta=a-b;
+	multiplicacion=a*b;
+	printf("la suma del primer + segundo numero es: %.1f\n\n",suma);
+	printf("la resta del primer - segundo numero es: %.1f\n\n",resta);
+	printf("la multiplicacion del primer x segundo numero es: %.1f\n\n",multiplicacion);
+	return 0;
+}
