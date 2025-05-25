@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+//Escribe un programa que solicite al usuario su nombre, edad y altura, y luego los muestre en pantalla.
+int main() {
+	char nombre[25];
+	int edad;
+	float altura;
+	printf("Ingere su nombre\n");
+	scanf ("%s", &nombre);
+	printf("Ingere su edad\n");
+	scanf ("%d", &edad);
+	printf("Ingere su altura\n");
+	scanf ("%f", &altura);
+	printf("Hola, %s. Tienes %d años y mides %.2f metros",nombre, edad, altura);
+	return 0;
+}
+
